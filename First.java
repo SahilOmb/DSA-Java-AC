@@ -1,5 +1,5 @@
 public class First {
     public static void main(String[] args) {
-        System.out.println("im gonna be the greatest programmer");
+        System.out.println("Im Gonna be the Greatest Programmer !");
     }
 }
