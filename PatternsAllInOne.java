@@ -42,7 +42,8 @@ public class PatternsAllInOne {
     }
 
     public static void main (String args[]){
-            System.out.println("Chooese one:");
+            System.out.println("Chooese one: ");
+            System.out.println("1)StarPatter 2)InverseStarPattern 3)CharacterPattern 4)NumericalPattern");
             Scanner sc =new Scanner(System.in);
             int Choice = sc.nextInt();
            
@@ -60,7 +61,7 @@ public class PatternsAllInOne {
                     NumericalPattern();
                     break;
                 default:
-                    throw new AssertionError();
+                    System.out.println("please choose from above bro");;
             }
     }
 }
