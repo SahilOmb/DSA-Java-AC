@@ -1,3 +1,5 @@
+//Combined code for basic star patterns onnly
+
 
 import java.util.Scanner;
 
@@ -43,7 +45,7 @@ public class PatternsAllInOne {
 
     public static void main (String args[]){
             System.out.println("Chooese one: ");
-            System.out.println("1)StarPatter 2)InverseStarPattern 3)CharacterPattern 4)NumericalPattern");
+            System.out.println(" 1) StarPatter 2) InverseStarPattern 3) CharacterPattern 4) NumericalPattern"); // added better comment 
             Scanner sc =new Scanner(System.in);
             int Choice = sc.nextInt();
            
@@ -61,7 +63,7 @@ public class PatternsAllInOne {
                     NumericalPattern();
                     break;
                 default:
-                    System.out.println("please choose from above bro");
+                    System.out.println("please choose from above"); //Fixed the spelling
             }
     }
 }
