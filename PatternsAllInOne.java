@@ -61,7 +61,7 @@ public class PatternsAllInOne {
                     NumericalPattern();
                     break;
                 default:
-                    System.out.println("please choose from above bro");;
+                    System.out.println("please choose from above bro");
             }
     }
 }
