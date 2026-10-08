@@ -19,9 +19,15 @@ public class Arrays {
              names[0]="hitori";
              System.out.println(names[0]);
 
+              ArrayCC(nums);
+        }
+        public static void ArrayCC(int nums[]){
+            
          //passing array as values 
-
-
+                for (int idx = 0; idx < nums.length; idx++) {
+                    nums[idx] = nums[idx]+1;
+                    System.out.println(nums[idx]);
+                }
         }
     
     }
