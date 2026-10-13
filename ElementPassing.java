@@ -14,8 +14,8 @@ public class ElementPassing {
      n = n + 10 *(n / 17);
     return n;
 
- /*Pass-by-Value: The method receives a brand-new copy of the actual data, 
- meaning changes made inside the method have no effect on the original variable.*/ 
+   /*Pass-by-Value: The method receives a brand-new copy of the actual data, 
+    meaning changes made inside the method have no effect on the original variable.*/ 
     }
       public static void main(String[] args) {
         int nums[]={10,43,78,35,90,23,82,19};
