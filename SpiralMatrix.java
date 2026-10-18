@@ -75,12 +75,15 @@ public class SpiralMatrix {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int[][] matrix = new int[4][4];
+        int size = sc.nextInt();
+        int r = size;
+        int c = size;
+        int[][] matrix = new int[r][c];
         
-        System.out.println("Enter 16 numbers to fill the 4x4 matrix:");
-        for (int i = 0; i < 4; i++) {
-            for (int j = 0; j < 4; j++) {
-                matrix[i][j] = sc.nextInt();
+        System.out.println("Enter"+(r*c)+" numbers to fill the "r"x"c" matrix:");
+        for (int row = 0; row < size; row++) {
+            for (int col = 0; col <size; col++) {
+                matrix[rows][col] = sc.nextInt();
             }
         }
 
