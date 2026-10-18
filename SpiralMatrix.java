@@ -80,7 +80,7 @@ public class SpiralMatrix {
         int c = size;
         int[][] matrix = new int[r][c];
         
-        System.out.println("Enter"+(r*c)+" numbers to fill the "r"x"c" matrix:");
+        System.out.println("Enter"+(r*c)+" numbers to fill the "+r+"x"+c+" matrix:");
         for (int row = 0; row < size; row++) {
             for (int col = 0; col <size; col++) {
                 matrix[rows][col] = sc.nextInt();
