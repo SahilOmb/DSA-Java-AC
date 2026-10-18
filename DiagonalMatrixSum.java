@@ -5,7 +5,7 @@ public class DiagonalMatrixSum {
         Scanner sc = new Scanner(System.in);
           int size = sc.nextInt();
           int r = size;
-          int c - size;
+          int c = size;
         int[][] matrix = new int[r][c];
         
         System.out.println("Enter "+(r*c)+" numbers to fill the matrix:");
