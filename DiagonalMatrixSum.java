@@ -26,15 +26,15 @@ public class DiagonalMatrixSum {
         System.out.println();
 
         DiagonalMatrixSum dms = new DiagonalMatrixSum();
-        System.out.println("the sum of diagonals is :" + dms.DiagonalSum(matrix));
+        System.out.println("the sum of diagonals is :" + dms.DiagonalSum(matrix, size));
 }
   
-    private int DiagonalSum(int[][] matrix){
+    private int DiagonalSum(int[][] matrix, int size){
        int sum = 0;
         for (int i = 0; i < matrix.length; i++) {
             for (int j = 0; j < matrix[0].length; j++) {
       //will calculate both diagonals in single conditional statement 
-                if(i == j || (i+j)==3){
+                if(i == j || (i+j)==size-1){
                     sum += matrix[i][j];
                 }
             }
