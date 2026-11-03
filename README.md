@@ -1,10 +1,11 @@
 # Data-Structures-and-Algos-Java---Apna-College
 🚀 A comprehensive tracker and repository for Data Structures and Algorithms (DSA) implemented from scratch in Java. Features clean, optimized code, time/space complexity analyses, and solutions to popular coding interview problems. ☕
 <p>
-☕ Java Data Structures & Algorithms (DSA) Tracker<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" width="50"/> 💻 Use any of the following editors
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VScode" width="45"/> 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg" alt="Intellij" width="45"/> 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eclipse/eclipse-original.svg" alt="Eclipse" width="45"/>
+☕ Java Data Structures & Algorithms (DSA) Tracker<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" width="50"/> <br><br>
+💻 Use any of the following editors
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VScode" width="35"/> 
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg" alt="Intellij" width="35"/> 
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eclipse/eclipse-original.svg" alt="Eclipse" width="35"/>
 </p>
 Welcome to my personal **Java DSA Repository**! This space serves as a comprehensive log of my journey mastering Data Structures, Algorithms, and problem-solving paradigms. All implementations are written purely in **Java** with an emphasis on code readability, optimal time/space complexity, and clean architecture.
 
