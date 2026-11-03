@@ -83,7 +83,7 @@ public class SpiralMatrix {
         System.out.println("Enter"+(r*c)+" numbers to fill the "+r+"x"+c+" matrix:");
         for (int row = 0; row < size; row++) {
             for (int col = 0; col <size; col++) {
-                matrix[rows][col] = sc.nextInt();
+                matrix[row][col] = sc.nextInt();
             }
         }
 
