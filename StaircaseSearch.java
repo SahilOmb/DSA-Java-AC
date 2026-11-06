@@ -5,7 +5,7 @@ public class StaircaseSearch {
                        ,{7,8,9}};
         int target = 5;
         StaircaseSearch scs = new StaircaseSearch();
-        int[] position = scs.findPosition(matrix, target);
+        int[] position = scs.StaircaseSearch(matrix, target);
         
         if (position[0] == -1) {
             System.out.println("Target not found");
@@ -22,7 +22,7 @@ public class StaircaseSearch {
          int col = matrix[0].length-1;
         while (row < matrix.length && col >= 0){
             if(matrix[row][col]==target){
-                return new int[]{row, col};;
+                return new int[]{row, col};
             }else if (matrix[row][col]>target) {
                 col--;// Target is smaller -> Move Left
             }else{
