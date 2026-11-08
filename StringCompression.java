@@ -11,14 +11,12 @@ public class StringCompression {
                 count++;
                 i++;
             } 
+
              if (count > 1) {
                 newstr.append(count);
             }
-            newstr.append(str.charAt(i));
-            
-           
+            newstr.append(str.charAt(i));  
         }
-        
         return newstr.toString();
     }
 
