@@ -11,7 +11,7 @@ public class LinearSearch {
         }
     }
 
-    public int LinearSearch(int arr[],int key){
+    private int LinearSearch(int arr[],int key){
         for (int idx = 0; idx < arr.length; idx++) {
             if(arr[idx]==key){
             return idx;
